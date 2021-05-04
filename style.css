@@ -1,0 +1,98 @@
+* {
+  margin: 2px;
+  padding: 3px;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(https://picsum.photos/seed/picsum/3200/3300);
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: grid;
+  place-items: center;
+  font-family: sans-serif;
+  padding: 5% 10%;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 50vh;
+  min-height: 50;
+  background: rgba(red, green, blue, alpha);
+  border-radius: 51px;
+  background: lightblue;
+  padding: 5% 10%;
+  background: rgba(19, 17, 17, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.card-container-heading {
+  width: 100%;
+  height: 100px;
+  margin: 0;
+  text-align: center;
+  font-weight: 900;
+  padding: 10px;
+  color: black;
+  font-weight: bolder;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  min-height: 30%;
+  margin: 2%;
+  padding: 3%;
+  width: 500px;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10%;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  overflow: hidden;
+}
+.card-details {
+  padding: 15%;
+  margin: 1%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button {
+  text-decoration: none;
+  padding: 10px 20px;
+  transition: all 0.3s linear;
+  width: 49;
+  margin-right: 1%;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: black;
+  text-decoration: black;
+  font-weight: 900;
+}
+.button:hover {
+  font-size: 1.1em;
+  border-radius: 50px;
+  background: #e0e0e0;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+}
+.card-image {
+  height: 100%;
+  object-fit: cover;
+  width: 500%;
+}
